@@ -76,18 +76,31 @@ This will:
 | `home_game` | 1 if home game, 0 if away |
 
 ---
+## Results
 
-## Sample Results
+MAE:   6.89 points
+RMSE:  8.83 points
+R²:    -0.004
 
-```
-Model: Random Forest Regressor
------------------------------
-MAE:   3.21 points
-RMSE:  4.18 points
-R²:    0.74
-```
+### Interpretation
 
-> Results vary depending on selected players and season range.
+The initial model showed **no predictive power** — an R² near zero means
+it performs about as well as simply guessing each player's average points.
+
+This is an expected result: **single-game scoring is dominated by noise**
+(hot/cold shooting, blowouts, foul trouble), so the features available before
+tip-off carry limited signal.
+
+### Key takeaways
+- The gap between RMSE (8.83) and MAE (6.89) indicates occasional large misses,
+  not just small consistent errors.
+- The strongest driver of points — minutes played — is only available as a
+  lagging feature, limiting predictive power.
+
+### Next steps
+- Add projected minutes and opponent defensive rating as features
+- Predict a more stable target (points per 36 minutes, or season average)
+- Compare against XGBoost / LightGBM
 
 ---
 
