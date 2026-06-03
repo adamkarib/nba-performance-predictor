@@ -1,0 +1,22 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data cache & generated outputs
+data/*.csv
+data/*.png
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
