@@ -1,10 +1,10 @@
-# 🏀 NBA Player Points Predictor
+# NBA Player Points Predictor
 
 A machine learning pipeline that predicts NBA player points per game using historical statistics. Built with Python, scikit-learn, and the `nba_api` library.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project demonstrates an end-to-end ML workflow:
 
@@ -17,7 +17,7 @@ This project demonstrates an end-to-end ML workflow:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 nba-performance-predictor/
@@ -36,11 +36,11 @@ nba-performance-predictor/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/nba-performance-predictor.git
+git clone https://github.com/adamkarib/nba-performance-predictor.git
 cd nba-performance-predictor
 ```
 
@@ -62,7 +62,7 @@ This will:
 
 ---
 
-## 📊 Features Used
+## Features Used
 
 | Feature | Description |
 |---|---|
@@ -77,7 +77,7 @@ This will:
 
 ---
 
-## 📈 Sample Results
+## Sample Results
 
 ```
 Model: Random Forest Regressor
@@ -91,7 +91,7 @@ R²:    0.74
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Python 3.10+**
 - **nba_api** — Free NBA stats API wrapper
@@ -101,7 +101,7 @@ R²:    0.74
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Add opponent defensive rating as a feature
 - Experiment with XGBoost or LightGBM
@@ -110,8 +110,8 @@ R²:    0.74
 
 ---
 
-## 👤 Author
+## Author
 
-**Adam** — MBAn, University of Michigan Ross School of Business  
-Statistics + Mathematics B.S. | Analytics & Finance  
-[LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
+**Adam Karibian** — MBAn | University of Michigan Ross School of Business  
+Statistics + Mathematics B.S. | University of Michigan LSA
+[LinkedIn] (https://www.linkedin.com/in/adam-karibian/)
